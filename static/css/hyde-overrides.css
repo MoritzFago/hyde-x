@@ -1,1 +1,25 @@
-.sidebar-about h1{color:#fff;margin-top:0;font-family:"Abril Fatface",serif;font-size:2.5rem}.sidebar-nav{padding-left:0;list-style:none;margin-bottom:1rem}
+.sidebar-about h1 {
+    display: inline;
+    color: #fff;
+    margin-top: 0;
+    font-family: "Abril Fatface", serif;
+    font-size: 2.5rem
+}
+
+.sidebar-about img {
+    display: inline-block;
+    height: 2.5rem;
+    width: auto;
+    vertical-align: middle;
+    margin: 0 auto .5rem auto;
+}
+
+.sidebar-about h1:hover, h1:focus {
+    text-decoration: underline
+}
+
+.sidebar-nav {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 1rem
+}

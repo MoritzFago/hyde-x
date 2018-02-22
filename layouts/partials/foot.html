@@ -1,2 +1,8 @@
-{{ if isset .Site.Params "highlight" }}<script src="{{ "/js/highlight.pack.js" | absURL }}"></script> <script>hljs.initHighlightingOnLoad();</script> <link rel="stylesheet" href="{{ "/css/highlight/" | absURL }}{{ .Site.Params.highlight }}.css"> {{ end }} {{ with .Site.Params.googleAnalytics }} <script>var _gaq=[["_setAccount","{{ . }}"],["_trackPageview"]];(function(e,a){var c=e.createElement(a),b=e.getElementsByTagName(a)[0];c.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";b.parentNode.insertBefore(c,b)}(document,"script"));</script> {{ end }} 
+
+<div class="content" style="padding-top: 0; padding-bottom: 0;">
+<hr style="margin-bottom: 0; margin-top:0">
+<p style="font-size: 0.6em;color: grey;margin-bottom: 0;height: 1em;text-align: center">Copyright © 2018 <a href="//blog.m.fago.me/impressum/">Impressum </a>Powered by <a href="https://uberspace.de" alt="Link zu Uberspace"><img src="/uberspacelogowhite.png" class="uberspace-logo" href="https://uberspace.de" alt="Uberspace Banner">
+			</a>, <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
+</div>
+{{ if isset .Site.Params "highlight" }}<script src="{{ "/js/highlight.pack.js" | absURL }}"></script> <script>hljs.initHighlightingOnLoad();</script> <link rel="stylesheet" href="{{ "/css/highlight/" | absURL }}{{ .Site.Params.highlight }}.css"> {{ end }} {{ with .Site.Params.googleAnalytics }} <script>var _gaq=[["_setAccount","{{ . }}"],["_trackPageview"]];(function(e,a){var c=e.createElement(a),b=e.getElementsByTagName(a)[0];c.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";b.parentNode.insertBefore(c,b)}(document,"script"));</script> {{ end }}
  </body> </html>

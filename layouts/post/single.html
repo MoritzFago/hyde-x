@@ -1,5 +1,5 @@
 {{ partial "head.html" . }}
-<div class="content container">
+<div class="content container withfoot">
     <div class="post">
         <h1>{{ .Title }}</h1>
         <span class="post-date">{{ .Date.Format "02.01.2006" }} &middot; Lesezeit: {{ .ReadingTime }} {{if ne .ReadingTime 1}} Minuten {{ else }} Minute {{ end }} {{ if .Site.DisqusShortname }} &middot; <a href="{{ .Permalink }}#disqus_thread">Comments</a>{{ end }}

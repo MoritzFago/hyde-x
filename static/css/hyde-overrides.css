@@ -59,3 +59,8 @@
 .sidebar-about{
 
 }
+
+.withfoot {
+    min-height: 100vh;
+    content: "foo";
+}
